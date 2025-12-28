@@ -3,7 +3,7 @@ import './Article.css';
 export default function Article() {
   return (
     <article className="article">
-      <h1>Headline</h1>
+      <h1 className="article__title">Headline</h1>
 
       <p className="article__paragraph">P1</p>
       <p className="article__paragraph">P2</p>
